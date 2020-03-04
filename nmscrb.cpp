@@ -15,7 +15,7 @@ int main(int argc,char**argv){
 			if(c=='\n'){worklist.push_back(out);out="";}
 			else{out+=c;}
 		}
-	}f.close();
+	}
 	string rmstr=argv[1];//string to remove from all files
 	for(int i=0;i<worklist.size();i++){
 		string out;
